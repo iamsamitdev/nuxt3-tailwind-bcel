@@ -1,40 +1,27 @@
 <script lang="ts" setup></script>
 
 <template>
-  <nav class="bg-gray-900 text-white py-5 border-b border-gray-700">
-    <div class="
-      container 
-      mx-auto 
-      px-4 
-      sm:px-0 
-      py-2 
-      flex 
-      flex-col 
-      sm:flex-row 
-      sm:justify-between 
-      justify-center 
-      gap-3 
-      sm:gap-0
-      items-center"
+  <nav class="px-5 py-5 text-white bg-gray-900 border-b border-gray-700">
+    <div class="container flex flex-col items-center justify-center gap-3 py-2 mx-auto  sm:px-0 sm:flex-row sm:justify-between sm:gap-0"
       >
       <NuxtLink to="/"
         class="text-xl font-medium">
-        Nuxt 3 blog
+        NUXT BLOG
       </NuxtLink>
-      <ul class="flex gap-5 items-center justify-end">
+      <ul class="flex items-center justify-end gap-5">
         <li>
           <NuxtLink to="/" class="text-xl text-gray-300 hover:text-gray-50">
-            Home
+            HOME
           </NuxtLink>
         </li>
         <li>
           <NuxtLink to="/category" class="text-xl text-gray-300 hover:text-gray-50">
-            Category
+            CATEGORY
           </NuxtLink>
         </li>
         <li>
           <NuxtLink to="/contact" class="text-xl text-gray-300 hover:text-gray-50">
-            Contact
+            CONTACT
           </NuxtLink>
         </li>
       </ul>

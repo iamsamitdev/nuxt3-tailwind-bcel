@@ -33,5 +33,12 @@ export default defineNuxtConfig({
         Sitemap: 'https://itgenius.co.th/sitemap_news.xml'
       }
     ]
-  ]
+  ],
+
+  runtimeConfig: {
+    public: {
+      wpUri: process.env.WP_URI,
+    }
+  },
+
 })

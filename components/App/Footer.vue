@@ -1,8 +1,8 @@
 <script lang="ts" setup></script>
 
 <template>
-  <footer class="px-4 py-8 sm:px-0 bg-gray-800 text-white">
-    <div class="text-lg">
+  <footer class="bg-gray-900 text-white py-5 px-5 border-gray-700">
+    <div class="text-lg text-center">
         Nuxt Tailwind by IT Genius. All rights reserved
     </div>  
   </footer>

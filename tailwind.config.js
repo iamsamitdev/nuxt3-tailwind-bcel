@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   mode: "jit",
   content: [
@@ -10,7 +11,11 @@ export default {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["IBM Plex Sans Thai", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 }

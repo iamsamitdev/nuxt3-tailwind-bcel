@@ -17,23 +17,10 @@
 </script>
 
 <template>
-  <!-- <div>
-    <h1 class="
-      text-green-700 
-      text-4xl border 
-      border-red-600 
-      m-4 
-      p-4 
-      animate-bounce
-      hover:bg-red-900 
-      hover:text-white
-      dark:text-green
-      light:text-blue
-    ">
-      <Icon name="uil:github" color="green" />
-      Hello Nuxt 3 Tailwind CSS
-  </h1>
-  </div> -->
+  
+  <Head>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  </Head>
 
   <NuxtLayout>
     <NuxtPage />
